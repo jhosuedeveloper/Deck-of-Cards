@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/josuerosales/Projects/Deck_of_Cardsx/DeckTest/DeckTest.csproj": {}
+  },
+  "projects": {
+    "/Users/josuerosales/Projects/Deck_of_Cardsx/DeckTest/DeckTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/josuerosales/Projects/Deck_of_Cardsx/DeckTest/DeckTest.csproj",
+        "projectName": "DeckTest",
+        "projectPath": "/Users/josuerosales/Projects/Deck_of_Cardsx/DeckTest/DeckTest.csproj",
+        "packagesPath": "/Users/josuerosales/.nuget/packages/",
+        "outputPath": "/Users/josuerosales/Projects/Deck_of_Cardsx/DeckTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/josuerosales/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
